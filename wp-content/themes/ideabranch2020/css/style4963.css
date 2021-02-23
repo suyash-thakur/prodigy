@@ -681,15 +681,21 @@ a.site-btn:focus {
 .site-btn.btn-yellow-gradient,
 .site-btn.btn-yellow-gradient:hover,
 .btn-yellow-gradient {
-  background-image: linear-gradient(
-    to bottom,
-    #f6e30b,
-    #f0d114,
-    #e8bf1b,
-    #dfae21,
-    #d49d26
-  );
-  box-shadow: 2px 1px 20px black;
+  background: #00416a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffe000,
+    #799f0c,
+    #00416a
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffe000,
+    #799f0c,
+    #00416a
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  box-shadow: 5px 2px 20px black;
   text-shadow: 2px 1px 20px black;
 }
 
@@ -701,14 +707,19 @@ a.site-btn:focus {
 }
 
 .btn-yellow-gradient.reverse {
-  background-image: linear-gradient(
-    to top,
-    #f6e30b,
-    #f0d114,
-    #e8bf1b,
-    #dfae21,
-    #d49d26
-  );
+  background: #00416a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffe000,
+    #799f0c,
+    #00416a
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffe000,
+    #799f0c,
+    #00416a
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .fixed-content .site-btn {
   font-weight: bold;
@@ -719,7 +730,18 @@ a.site-btn:focus {
 }
 
 .text-yellow-gradient {
-  background: linear-gradient(to left, #fff000 60%, #ecae06 100%);
+  background: #c02425; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #f0cb35,
+    #ff0000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #f0cb35,
+    #ff0000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1727,7 +1749,22 @@ anews:focus {
   margin-top: 30px;
   font-weight: 600;
   font-size: 60px;
-  color: #ffd822 !important;
+  background: #8a2387; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f27121,
+    #e94057,
+    #8a2387
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f27121,
+    #e94057,
+    #8a2387
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .anews .title span {
@@ -1751,7 +1788,20 @@ anews:focus {
 .anews ul button {
   padding: 15px 0px;
   width: 100%;
-  background-color: #ffd822;
+  background: #00416a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffe000,
+    #799f0c,
+    #00416a
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffe000,
+    #799f0c,
+    #00416a
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   margin-top: 20px;
   cursor: pointer;
 }
@@ -2732,15 +2782,18 @@ article .container {
 }
 
 .circle-container .circle {
-  position: absolute;
-  background-image: linear-gradient(
-    to top,
-    #f6e30b,
-    #f5d609,
-    #f2ca0a,
-    #efbd0e,
-    #ebb113
-  );
+  background: #544a7d; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffd452,
+    #544a7d
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffd452,
+    #544a7d
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   border-radius: 5em;
   box-shadow: 0px 0px 20px 20px rgb(0 0 0 / 0.14);
 }
