@@ -138,7 +138,7 @@ body {
   padding-bottom: 206px;
 }
 .yellow {
-  color: #ffd822 !important;
+  color: #e85343 !important;
 }
 .bg-black {
   background-color: black;
@@ -527,7 +527,7 @@ header nav ul li a:focus {
   top: -7px;
 }
 .menu-contact .btn-warning {
-  background-color: #f3b802ff;
+  background-color: #e85343;
   border-radius: 7px;
   padding-left: 30px;
   padding-right: 30px;
@@ -681,18 +681,18 @@ a.site-btn:focus {
 .site-btn.btn-yellow-gradient,
 .site-btn.btn-yellow-gradient:hover,
 .btn-yellow-gradient {
-  background: #00416a; /* fallback for old browsers */
+  background: #f08276; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #ffe000,
-    #799f0c,
-    #00416a
+    #e53923,
+    #e25d35,
+    #eb7855
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
-    to right,
-    #ffe000,
-    #799f0c,
-    #00416a
+    to bottom,
+    #e53923,
+    #e25d35,
+    #eb7855
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   box-shadow: 5px 2px 20px black;
@@ -710,15 +710,15 @@ a.site-btn:focus {
   background: #00416a; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #ffe000,
-    #799f0c,
-    #00416a
+    #e53923,
+    #e25d35,
+    #eb7855
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
-    to right,
-    #ffe000,
-    #799f0c,
-    #00416a
+    to bottom,
+    #e53923,
+    #e25d35,
+    #eb7855
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .fixed-content .site-btn {
@@ -726,20 +726,22 @@ a.site-btn:focus {
 }
 
 .text-yellow {
-  color: #f6e30b;
+  color: #e25d35;
 }
 
 .text-yellow-gradient {
   background: #c02425; /* fallback for old browsers */
   background: -webkit-linear-gradient(
-    to top,
-    #f0cb35,
-    #ff0000
+    to bottom,
+    #e53923,
+    #e25d35,
+    #eb7855
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
-    to top,
-    #f0cb35,
-    #ff0000
+    to bottom,
+    #e53923,
+    #e25d35,
+    #eb7855
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   -webkit-background-clip: text;
@@ -1197,7 +1199,7 @@ section {
 
 .service:hover {
   color: #fff;
-  border-color: #ffd822;
+  border-color: #e25d35;
   transform: scale(1.05);
 }
 
@@ -1751,16 +1753,16 @@ anews:focus {
   font-size: 60px;
   background: #8a2387; /* fallback for old browsers */
   background: -webkit-linear-gradient(
-    to right,
-    #f27121,
-    #e94057,
-    #8a2387
+    to bottom,
+    #e53923,
+    #e25d35,
+    #eb7855
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
-    to right,
-    #f27121,
-    #e94057,
-    #8a2387
+    to bottom,
+    #e53923,
+    #e25d35,
+    #eb7855
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   -webkit-background-clip: text;
@@ -1788,18 +1790,18 @@ anews:focus {
 .anews ul button {
   padding: 15px 0px;
   width: 100%;
-  background: #00416a; /* fallback for old browsers */
+  background: #e25d35; /* fallback for old browsers */
   background: -webkit-linear-gradient(
-    to right,
-    #ffe000,
-    #799f0c,
-    #00416a
+    to bottom,
+    #e53923,
+    #e25d35,
+    #eb7855
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
-    to right,
-    #ffe000,
-    #799f0c,
-    #00416a
+    to bottom,
+    #e53923,
+    #e25d35,
+    #eb7855
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   margin-top: 20px;
@@ -1807,7 +1809,7 @@ anews:focus {
 }
 
 .anews ul button:hover {
-  background-color: #c29f00;
+  background-color: #e25d35;
 }
 
 .anews .category {
@@ -2409,7 +2411,7 @@ footer .getintouch p {
   padding-right: 250px;
 }
 .hl {
-  color: #ffd822;
+  color: #e25d35;
   font-weight: bold;
 }
 
@@ -2509,7 +2511,7 @@ footer .getintouch p {
 .slider-content span:before,
 .section-title:before,
 .swiper-pagination-bullet-active {
-  background: #ffd822; /* background: #ff0e2a; */
+  background: #e25d35; /* background: #ff0e2a; */
 }
 
 .section-title span,
@@ -2518,7 +2520,7 @@ footer .getintouch p {
 .anews .category,
 .article-comments .comment-content .reply,
 .news-article .category {
-  color: #ffd822; /* background: #ff0e2a; */
+  color: #e25d35; /* background: #ff0e2a; */
 }
 
 .second-title h3:hover {
@@ -2733,10 +2735,10 @@ article .container {
   outline: 0;
 }
 .modal-theme-black .modal-footer .btn-warning:hover {
-  background-color: #c59606;
+  background-color: #e25d35;
 }
 .modal-theme-black .modal-footer .btn-warning {
-  background-color: #f3b802ff;
+  background-color: #e25d35;
   max-width: 200px;
   width: 100%;
   height: 100%;
@@ -2782,16 +2784,18 @@ article .container {
 }
 
 .circle-container .circle {
-  background: #544a7d; /* fallback for old browsers */
+  background: #e25d35; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #ffd452,
-    #544a7d
+    #e53923,
+    #e25d35,
+    #eb7855
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #ffd452,
-    #544a7d
+    #e53923,
+    #e25d35,
+    #eb7855
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   border-radius: 5em;
@@ -2799,24 +2803,19 @@ article .container {
 }
 
 .circle-container .circle.radient {
-  background: hsla(55, 93%, 50%, 1);
-  background: radial-gradient(
-    circle,
-    hsla(55, 93%, 50%, 1) 0%,
-    hsla(41, 88%, 56%, 1) 62%,
-    hsla(41, 70%, 49%, 1) 100%
-  );
+  background: #e25d35;
+  background: radial-gradient(circle, #e53923 0%, #e25d35 62%, #eb7855 100%);
   background: -moz-radial-gradient(
     circle,
-    hsla(55, 93%, 50%, 1) 0%,
-    hsla(41, 88%, 56%, 1) 62%,
-    hsla(41, 70%, 49%, 1) 100%
+    #e53923 0%,
+    #e25d35 62%,
+    #eb7855 100%
   );
   background: -webkit-radial-gradient(
     circle,
-    hsla(55, 93%, 50%, 1) 0%,
-    hsla(41, 88%, 56%, 1) 62%,
-    hsla(41, 70%, 49%, 1) 100%
+    #e53923 0%,
+    #e25d35 62%,
+    #eb7855 100%
   );
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F6E30B", endColorstr="#F1B22B", GradientType=1 );
 }
@@ -2851,7 +2850,7 @@ article .container {
   left: -49px;
 }
 #footer_circle_1 {
-  bottom: 70px;
+  bottom: -80px;
 }
 #footer_circle_2 {
   top: -50px;
@@ -2948,7 +2947,7 @@ html .anews .gs-bar.gs-buttons {
   border-radius: 2em;
 }
 .article-hightlignt li.slick-active button:after {
-  background-color: #f2b22a;
+  background-color: #e25d35;
 }
 .article-hightlignt .slick-slide img {
   height: 335px;
