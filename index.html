@@ -209,6 +209,72 @@ var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions
       }
       </style>
 
+<!-- PILLS STYLE -->
+<style>
+
+	
+	/* Style the tab */
+	.tab {
+	width: 100%;
+	margin-bottom: 20px;
+	}
+	
+	/* Style the buttons inside the tab */
+	.tab button {
+	  
+	  border-radius: 30px;
+	  outline: none;
+	  cursor: pointer;
+	  padding: 14px 16px;
+	  transition: 0.3s;
+	  font-size: 17px;
+	  color: floralwhite;
+	  background-color: transparent;
+	}
+	
+	/* Change background color of buttons on hover */
+	.tab button:hover {
+	  background-color: #e85343 ;
+	}
+	
+	/* Create an active/current tablink class */
+	.tab button.active {
+	  background-color: #e85343 ;
+	}
+	
+	/* Style the tab content */
+	.tabcontent1 {
+	width: 100%!important;
+	/* display: none; */
+	}
+	.tabcontent2 {
+	width: 100%!important;
+	display: none;
+	}
+
+	.spacing {
+		margin-bottom: 20px;
+	}
+	.active, .tab button:hover{
+	
+	}
+
+	@media only screen and (max-width: 768px) {
+	.tab button {
+	  border-radius: 20px;
+	  outline: none;
+	  cursor: pointer;
+	  padding: 14px 16px;
+	  transition: 0.3s;
+	  font-size: 12px;
+	  color: floralwhite;
+	  background-color: transparent;
+	}
+	.active, .tab button:hover{
+	
+	}
+	}
+	</style>
   </head>
 
 
@@ -336,164 +402,341 @@ var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions
 <!-- SERVICES
 ==================================================-->
 <section id="services" class="services graybg">
-	<div  class="circle-container">
-		<div id="services_circle_1" class="circle-wrapper"><div data-depth="0.03" class="circle radient cw-85 wow fadeInUp"></div></div>
-		<div id="services_circle_2" class="circle-wrapper"><div data-depth="0.03" class="circle circle-image wow fadeInUp"><img src="wp-content/themes/ideabranch2020/img/donut.png" /></div></div>
+	<div class="circle-container">
+		<div id="services_circle_1" class="circle-wrapper">
+			<div data-depth="0.03" class="circle radient cw-85 wow fadeInUp"></div>
+		</div>
+		<div id="services_circle_2" class="circle-wrapper">
+			<div data-depth="0.03" class="circle circle-image wow fadeInUp"><img
+					src="wp-content/themes/ideabranch2020/img/donut.png" /></div>
+		</div>
 	</div>
 	<div class="container wow fadeInUp">
 		<div class="section-title mb-4 top_30">
-			<h2 class="title">Our services</h2>
+			<h2 class="title">SCHEDULE PLAN</h2>
 		</div>
-		<!-- Services -->
-		<div class="swiper-container slide-services wow fadeInUp" data-wow-delay="0.5s">
-			<div class="swiper-wrapper">
-				<div class="swiper-slide">
-					<div class="service">
-						<img width="60" src=wp-content/themes/ideabranch2020/img/service-logo/social_marketing.png alt="Social Marketing" />
-						<h3 class="second-title yellow">Social Marketing </h3>
-						<ul>
-							<li>Strategy Plan</li>
-							<li>Communication Plan</li>
-							<li>Campaign Plan</li>
-							<li>Execution Plan</li>
-						</ul>
-					</div>
-				</div>
-				<div class="swiper-slide">
-					<div class="service">
-					<img width="60" src="wp-content/themes/ideabranch2020/img/service-logo/web_develop.png" alt="Web Development"/>
-						<h3 class="second-title yellow">Web Development</h3>
-						<ul>
-							<li>Information Web</li>
-							<li>Internal Web</li>
-							<li>Microsite Campaign</li>
-						</ul>
-					</div>
-				</div>
-				<div class="swiper-slide">
-					<div class="service">
-					<img width="60" src="wp-content/themes/ideabranch2020/img/service-logo/interactive%20media.png" alt="Interactive Media"/>
-						<h3 class="second-title yellow">Interactive Media</h3>
-						<ul>
-							<li>Interactive VDO</li>
-							<li>E-Magazine</li>
-							<li>E-Book</li>
-						</ul>
-					</div>
-				</div>
-				<div class="swiper-slide">
-					<div class="service">
-					<img width="60" src="wp-content/themes/ideabranch2020/img/service-logo/monitoring_analytics.png" alt="Social Monitoring & Analytics"/>
-						<h3 class="second-title yellow">Social Monitoring & Analytics </h3>
-						<ul>
-							<li>Social Listening</li>
-							<li>Social Monitoring</li>
-							<li>Competitor Analysis</li>
-						</ul>
-					</div>
-				</div>
-				<div class="swiper-slide">
-					<div class="service">
-					<img width="60" src="wp-content/themes/ideabranch2020/img/service-logo/application_develop.png" alt="Application Development"/>
-						<h3 class="second-title yellow">Application Development</h3>
-						<ul>
-							<li>Hybrid Mobile</li>
-							<li>Native (Android/iOS)</li>
-							<li>KIOSK</li>
-						</ul>
-					</div>
-				</div>
-				<div class="swiper-slide">
-					<div class="service">
-					<img width="60" src="wp-content/themes/ideabranch2020/img/service-logo/media_advertising.png" alt="Media Advertising"/>
-						<h3 class="second-title yellow">Media Advertising</h3>
-						<ul>
-							<li>Media Planning</li>
-							<li>Media Buying</li>
-							<li>Ads Bidding</li>
-							<li>SEM & GDN</li>
-						</ul>
-					</div>
-				</div>
-				<div class="swiper-slide">
-					<div class="service">
-					<img width="60" src="wp-content/themes/ideabranch2020/img/service-logo/digital_production.png" alt="Digital Production"/>
-						<h3 class="second-title yellow">Digital Production</h3>
-						</p>
-						<ul>
-							<li>Live Production</li>
-							<li>VDO Clip</li>
-							<li>Motion Graphic</li>
-							<li>Infographic</li>
-							<li>Character Design</li>
-						</ul>
-					</div>
-				</div>
-				<div class="swiper-slide">
-					<div class="service">
-					<img width="60" src="wp-content/themes/ideabranch2020/img/service-logo/lineOA.png" alt="Line OA Development"/>
-						<h3 class="second-title yellow">LINE OA Development</h3>
-						<ul>
-							<li>Rich Menu</li>
-							<li>Rich Message</li>
-							<li>LIFF</li>
-							<li>Chatbot</li>
-						</ul>
-					</div>
-				</div>
-				<div class="swiper-slide">
-					<div class="service">
-					<img width="60" src="wp-content/themes/ideabranch2020/img/service-logo/publishing.png" alt="Publishing"/>
-						<h3 class="second-title yellow">Publishing</h3>
-						<ul>
-							<li>Journal</li>
-							<li>Poster</li>
-							<li>Planner</li>
-							<li>News</li>
-						</ul>
-					</div>
-				</div>
-				<div class="swiper-slide">
-					<div class="service">
-					<img width="60" src="wp-content/themes/ideabranch2020/img/service-logo/digital_training.png" alt="Digital Training"/>
-						<h3 class="second-title yellow">Digital Training</h3>
-						<ul>
-							<li>Social Media Training</li>
-							<li>Website Training</li>
-							<li>Application Training</li>
-							<li>Digital Transformation Training</li>
-						</ul>
+		<br>
+		<br>
+		<!-- PILLS -->
+		<div class="tab">
+			<div class="container">
+				<div class="row" style="justify-content: center;">
+					<div class="col-md-6" style="text-align: center;">
+						<button class="tablinks active" onclick="openCity(event, 'London')">Friday<br>February 21, 2020</button>
+						&nbsp;
+						<button class="tablinks" onclick="openCity(event, 'Paris')">Saturday<br>February 22, 2020</button>
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="swiper-footer d-lg-none">
-			<div class="swiper-button-next ser-btn"></div>
-			<div class="swiper-button-prev ser-btn"></div>
-		</div>
-		<!-- Counter -->
-		<div id="counter" class="top_90 counter wow fadeInUp">
-			<div class="row">
-				<div class="col-6 col-sm-6 col-lg-3 count d-flex justify-content-center justify-content-lg-start">
-					<div class="counter-value" data-count="5">0</div>
-					<h4 class="title">Years of <br>Experience</h4>
-				</div>
-				<div class="col-6 col-sm-6 col-lg-3 count d-flex justify-content-center justify-content-lg-start">
-					<div class="counter-value" data-count="10">0</div>
-					<h4 class="title">Services</h4>
-				</div>
-				<div class="col-6 col-sm-6 col-lg-3 count d-flex justify-content-center justify-content-lg-start">
-					<div class="counter-value" data-count="100">0</div>
-					<h4 class="title">Client<br>Served</h4>
-				</div>
-				<div class="col-6 col-sm-6 col-lg-3 count d-flex justify-content-center justify-content-lg-start">
-					<div class="counter-value" data-count="900">0</div>
-					<div class="counter-value">&plus;</div>
-					<h4 class="title">Project<br>Delivered</h4>
-				</div>
-			</div> <!-- row end -->
-		</div> <!-- counter end -->
+			
+		  </div>
+		  <br>
+		  <br>
+		  <!-- PILLS 1 -->
+		  <div id="London" class="tabcontent1">
+			<div class="tab-pane fade show active" id="London" role="tabpanel" aria-labelledby="ex1-tab-1">
+				<div class="swiper-container slide-services wow fadeInUp" data-wow-delay="0.5s">
+					<div class="swiper-wrapper">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-3 spacing">
+									<div class="swiper-slide">
+										<div class="service">
+											<img width="60" src=wp-content/themes/ideabranch2020/img/service-logo/3.jpg
+												alt="Social Marketing" />
+											<h3 class="second-title yellow">Eminent Speaker Program</h3>
+											<ul>
+												<li>EVENT HEADS:</li>
+												<li>Bidit Mangal-9752445641</li>
+												<li>Varsha Rohith-9536972894</li>
+												<li>Time-11:30am - 12:30 pm</li>
+											</ul>
+										</div>
+									</div>
 
+								</div>
+								<div class="col-md-3 spacing">
+									<div class="swiper-slide">
+										<div class="service">
+											<img width="60" src="wp-content/themes/ideabranch2020/img/service-logo/6.jpg"
+												alt="Web Development" />
+											<h3 class="second-title yellow">#Brocode</h3>
+											<ul>
+												<li>EVENT HEADS:</li>
+												<li>Anant-9812386052</li>
+												<li>Devika Gupta-9219819672</li>
+												<li>Time-2:30pm - 5:30pm</li>
+											</ul>
+										</div>
+									</div>
+
+								</div>
+								<div class="col-md-3 spacing">
+									<div class="swiper-slide">
+										<div class="service">
+											<img width="60" src="wp-content/themes/ideabranch2020/img/service-logo/7.jpg"
+												alt="Social Monitoring & Analytics" />
+											<h3 class="second-title yellow">L.O.S.T (Land of Secret Treasure)</h3>
+											<ul>
+												<li>EVENT HEADS:</li>
+												<li>Poorvi Sahu-8529493128</li>
+												<li>Amisha-8006591660</li>
+												<li>Time-12:30pm - 3:30pm</li>
+											</ul>
+										</div>
+									</div>
+
+								</div>
+								<div class="col-md-3 spacing">
+									<div class="swiper-slide">
+										<div class="service">
+											<img width="60" src="wp-content/themes/ideabranch2020/img/service-logo/2.png"
+												alt="Application Development" />
+											<h3 class="second-title yellow">Hackquest (Online)</h3>
+											<ul>
+												<li>EVENT HEADS:</li>
+												<li>Anant-9812386052</li>
+												<li>Devika Gupta-9219819672</li>
+												<li>Time-starts 12:30pm</li>
+											</ul>
+										</div>
+									</div>
+
+								</div>
+								<div class="col-md-3 spacing">
+									<div class="swiper-slide">
+										<div class="service">
+											<img width="60" src="wp-content/themes/ideabranch2020/img/service-logo/9.jpg"
+												alt="Digital Production" />
+											<h3 class="second-title yellow">Game Jam Round 1</h3>
+											</p>
+											<ul>
+												<li>EVENT HEADS:</li>
+												<li>Abhishek Gupta-8003938432</li>
+												<li>Garvit Khurana-9306833263</li>
+												<li>Time-2:30pm - 3:30pm</li>
+											</ul>
+										</div>
+									</div>
+
+								</div>
+								<div class="col-md-3 spacing">
+									<div class="swiper-slide">
+										<div class="service">
+											<img width="60" src="wp-content/themes/ideabranch2020/img/service-logo/4.jpg"
+												alt="Line OA Development" />
+											<h3 class="second-title yellow">Code Wars (Online)</h3>
+											<ul>
+												<li>EVENT HEADS:</li>
+												<li>Lavanya-9509674522</li>
+												<li>Riddhi-8847209829</li>
+												<li>Time-10:00pm - 3:00am</li>
+											</ul>
+										</div>
+									</div>
+
+								</div>
+								<div class="col-md-3 spacing">
+									<div class="swiper-slide">
+										<div class="service">
+											<img width="60" src="wp-content/themes/ideabranch2020/img/service-logo/8.jpg"
+												alt="Digital Training" />
+											<h3 class="second-title yellow">Dominion PubG</h3>
+											<ul>
+												<li>EVENT HEADS:</li>
+												<li>Raunak - 9818068937</li>
+												<li>Chirag Sankhla - 9413591741</li>
+												<li>Time-1:30pm - 5:30pm</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-footer d-lg-none">
+					<div class="swiper-button-next ser-btn"></div>
+					<div class="swiper-button-prev ser-btn"></div>
+				</div>
+			</div>
+		  </div>
+		  
+		  <!-- PILLS 2 -->
+		  <div id="Paris" class="tabcontent2">
+			<div class="tab-pane fade show active" id="Paris" role="tabpanel" aria-labelledby="ex1-tab-1">
+				<div class="swiper-container slide-services wow fadeInUp" data-wow-delay="0.5s">
+					<div class="swiper-wrapper">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-3 spacing">
+									<div class="swiper-slide">
+										<div class="service">
+											<img width="60" src=wp-content/themes/ideabranch2020/img/service-logo/5.jpg
+												alt="Social Marketing" />
+											<h3 class="second-title yellow">Workshop</h3>
+											<ul>
+												<li>EVENT HEADS:</li>
+												<li>Swati Chaturvedi-8860700431</li>
+												<li>Divija-9354148505</li>
+												<li>Time -9:30pm - 1:30pm</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 spacing">
+									<div class="swiper-slide">
+										<div class="service">
+											<img width="60" src="wp-content/themes/ideabranch2020/img/service-logo/6.jpg"
+												alt="Web Development" />
+											<h3 class="second-title yellow">Hackquest (Online)</h3>
+											<ul>
+												<li>EVENT HEADS:</li>
+												<li>Tanisha Singla - 9870308706</li>
+												<li>Shrishti - 7060558758</li>
+												<li>Time - ends 12:30pm</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 spacing">
+									<div class="swiper-slide">
+										<div class="service">
+											<img width="60" src="wp-content/themes/ideabranch2020/img/service-logo/10.jpg"
+												alt="Social Monitoring & Analytics" />
+											<h3 class="second-title yellow">Game Jam Round 2</h3>
+											<ul>
+												<li>EVENT HEADS:</li>
+												<li>Abhishek Gupta-8003938432</li>
+												<li>Garvit Khurana-9306833263</li>
+												<li>Time-9:30am - 12:30pm</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 spacing">
+									<div class="swiper-slide">
+										<div class="service">
+											<img width="60" src="wp-content/themes/ideabranch2020/img/service-logo/3.png"
+												alt="Application Development" />
+											<h3 class="second-title yellow">Hackquest (Online)</h3>
+											<ul>
+												<li>EVENT HEADS:</li>
+												<li>Anant-9812386052</li>
+												<li>Devika Gupta-9219819672</li>
+												<li>Time-starts 12:30pm</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 spacing">
+									<div class="swiper-slide">
+										<div class="service">
+											<img width="60" src="wp-content/themes/ideabranch2020/img/service-logo/1.jpg"
+												alt="Digital Production" />
+											<h3 class="second-title yellow">Dominion: CS-GO</h3>
+											</p>
+											<ul>
+												<li>EVENT HEADS:</li>
+												<li>Raunak-9818068937</li>
+												<li>Chirag Sankhla-9413591741</li>
+												<li>Time- 9:30am - 2:00pm</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 spacing">
+									<div class="swiper-slide">
+										<div class="service">
+											<img width="60" src="wp-content/themes/ideabranch2020/img/service-logo/1.jpg"
+												alt="Digital Production" />
+											<h3 class="second-title yellow">Dominion: CS-GO</h3>
+											</p>
+											<ul>
+												<li>EVENT HEADS:</li>
+												<li>Raunak-9818068937</li>
+												<li>Chirag Sankhla-9413591741</li>
+												<li>Time- 9:30am - 2:00pm</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 spacing">
+									<div class="swiper-slide">
+										<div class="service">
+											<img width="60" src="wp-content/themes/ideabranch2020/img/service-logo/4.jpg"
+												alt="Line OA Development" />
+											<h3 class="second-title yellow">Code Wars (Online)</h3>
+											<ul>
+												<li>EVENT HEADS:</li>
+												<li>Lavanya-9509674522</li>
+												<li>Riddhi-8847209829</li>
+												<li>Time-10:00pm - 3:00am</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 spacing">
+									<div class="swiper-slide">
+										<div class="service">
+											<img width="60" src="wp-content/themes/ideabranch2020/img/service-logo/11.jpg"
+												alt="Digital Training" />
+											<h3 class="second-title yellow">Retro Design</h3>
+											<ul>
+												<li>EVENT HEADS:</li>
+												<li>Yash Verma - 8901031668</li>
+												<li>Divya - 8295120137</li>
+												<li>Time- 9:30am - 1:30pm</li>
+											</ul>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				<div class="swiper-footer d-lg-none">
+					<div class="swiper-button-next ser-btn"></div>
+					<div class="swiper-button-prev ser-btn"></div>
+				</div>
+			</div>
+		  </div>
+		
+	</div>
+	<!-- Counter -->
+	<div id="counter" class="top_90 counter wow fadeInUp" >
+		<div class="row">
+			<div class="col-6 col-sm-6 col-lg-3 count d-flex justify-content-center justify-content-lg-start" >
+				<div style="margin: auto;">
+				<div class="counter-value" data-count="5">0</div>
+				<h4 class="title">Years of <br>Experience</h4>
+			</div>
+			</div>
+			<div class="col-6 col-sm-6 col-lg-3 count d-flex justify-content-center justify-content-lg-start">
+				<div style="margin: auto;">
+
+				<div class="counter-value" data-count="10">0</div>
+				<h4 class="title">Services</h4>
+				</div>
+			</div>
+			<div class="col-6 col-sm-6 col-lg-3 count d-flex justify-content-center justify-content-lg-start">
+				<div style="margin: auto;">
+
+				<div class="counter-value" data-count="100">0</div>
+				<h4 class="title">Client<br>Served</h4>
+				</div>
+			</div>
+			<div class="col-6 col-sm-6 col-lg-3 count d-flex justify-content-center justify-content-lg-start">
+				<div style="margin: auto;">
+				<div class="counter-value" data-count="900">0</div>
+				<div class="counter-value">&plus;</div>
+				<h4 class="title">Project<br>Delivered</h4>
+				</div>
+			</div>
+		</div> <!-- row end -->
+	</div> <!-- counter end -->
 </section>
 <!-- Our Client
 ================================================== -->
@@ -696,7 +939,30 @@ var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions
   </div>
 </div>
 
-
+<script>
+	var scrollOnce = false;
+	function openCity(evt, cityName) {
+	  var i, tabcontent1,tabcontent2, tablinks;
+	  tabcontent1 = document.getElementsByClassName("tabcontent1");
+	  for (i = 0; i < tabcontent1.length; i++) {
+		tabcontent1[i].style.display = "none";
+	  }
+	  tabcontent2 = document.getElementsByClassName("tabcontent2");
+	  for (i = 0; i < tabcontent2.length; i++) {
+		tabcontent2[i].style.display = "none";
+	  }
+	  tablinks = document.getElementsByClassName("tablinks");
+	  for (i = 0; i < tablinks.length; i++) {
+		tablinks[i].className = tablinks[i].className.replace(" active", "");
+	  }
+	  document.getElementById(cityName).style.display = "block";
+	  evt.currentTarget.className += " active";
+	  if(cityName === 'Paris' && !scrollOnce) {
+		window.scrollBy(0, 50);
+		scrollOnce = true;
+	  }
+	}
+	</script>
 
 <script type="text/javascript">
 document.addEventListener( 'wpcf7invalid', function( event ) {
@@ -742,6 +1008,7 @@ var js_object = {"socialShortCode":"[getsocial_with_idb app=\"sharing_bar\"]","t
 <script type='text/javascript' src='wp-content/themes/ideabranch2020/js/main68b3.js?ver=1' id='ideabranch-main-js'></script>
 <script type='text/javascript' src='wp-content/themes/ideabranch2020/assets/plugin/slick/slick.min68b3.js?ver=1' id='slick-js'></script>
 <script type='text/javascript' src='./parallax.min68b3.js?ver=1' id='ideabranch-parallax-js'></script>
+
 <script type='text/javascript' src='wp-content/themes/ideabranch2020/js/bootstrap.min68b3.js?ver=1' id='ideabranch-bootstrap-modal-js-js'></script>
 <script type='text/javascript' src='wp-includes/js/wp-embed.min5697.js?ver=5.5.3' id='wp-embed-js'></script>
 </body>
