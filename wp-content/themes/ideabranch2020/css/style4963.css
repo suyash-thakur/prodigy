@@ -75,7 +75,7 @@
   background-color: rgb(25 25 25);
 }
 .end-to-end .wrapper .item {
-  width: calc(100% / 5);
+  width: calc(100% / 3);
   background-size: cover;
   background-position: center center;
   overflow: hidden;
